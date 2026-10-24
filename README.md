@@ -25,4 +25,5 @@ This project aims to build an end-to-end ETL pipeline using Python, MySQL, and P
 - [ ] Power BI dashboard
 
 ## Project Status
-In progress.
+In progress — database connection and ETL implementation are the next steps.
+
