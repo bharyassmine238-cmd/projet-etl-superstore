@@ -2,9 +2,6 @@
 CREATE DATABASE IF NOT EXISTS superstore_dw;
 
 USE superstore_dw;
-
-SHOW DATABASES;
-
 USE superstore_dw;
 
 CREATE TABLE IF NOT EXISTS dim_client (
@@ -71,4 +68,4 @@ CREATE TABLE IF NOT EXISTS fact_ventes (
     FOREIGN KEY (location_key)
         REFERENCES dim_localisation(location_key)
 );
-SHOW TABLES;
+
