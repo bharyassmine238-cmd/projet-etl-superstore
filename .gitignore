@@ -216,5 +216,30 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*secret*
+*credentials*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration
+config.ini
+
 # Streamlit
 .streamlit/secrets.toml
+
+# MySQL local files and backups
+*.sql.gz
+*.dump
+*.bak
+
+# Local configuration
+config.ini
+
